@@ -7,3 +7,12 @@ __Requieres__: go 1.13 AND darwin system
 
 __Installation__:
 cd into the directory. use $ go install and execute in the bin directory with $ go run gocat or call it globally by exporting into your PATH variable.
+
+__Testing__:
+For a simple test run $ go test -v inside of the directory.
+
+__Piping__:
+You can pipe the gocat output to the gomd5 cli. e.g:
+```go
+gocat ~/go/src/gomd5/main.go | gomd5
+```
