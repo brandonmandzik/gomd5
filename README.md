@@ -1,5 +1,6 @@
 # gomd5
-Gomd5 creates a md5 hash, which is cryptographically broken, and outputs it to the standard-ouput. As input you can choose between two flags:
+__Author__ - _Brandon Mandzik, 2020_ <br>
+_Gomd5_ creates a md5 hash, which is cryptographically broken, and outputs it to the standard-ouput. As input you can choose between two flags:
  - file // specifies a file.
  - url // use an url-string.
 
